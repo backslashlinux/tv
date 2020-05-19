@@ -3,15 +3,15 @@
 # Adds a desktop entry for the current user
 
 create_desktop_entry() {
-	NAME="Popcorn Time"
+	NAME="BackSlash TV"
 	COMMENT="Watch Movies and TV Shows instantly!"
 
 	CURRENT_DIR=$(pwd)
-	EXECUTABLE=$CURRENT_DIR/Popcorn-Time
+	EXECUTABLE=$CURRENT_DIR/backslash-tv
 	ICON_PATH=$CURRENT_DIR/src/app/images/icon.png
 
 	DESTINATION_DIR=/home/$(whoami)/.local/share/applications
-	DESKTOP_FILE=$DESTINATION_DIR/popcorn-time.desktop
+	DESKTOP_FILE=$DESTINATION_DIR/backslash-tv.desktop
 
 	echo "[Desktop Entry]" > $DESKTOP_FILE
 	echo "Version=1.0" >> $DESKTOP_FILE
@@ -29,7 +29,7 @@ create_desktop_entry() {
 	echo "Desktop entry added for $(whoami)"
 }
 
-printf "Create a desktop entry for Popcorn Time for the current user ? (Y)es/(N)o: "
+printf "Create a desktop entry for BackSlash TV for the current user ? (Y)es/(N)o: "
 read -n1 input
 
 
@@ -42,5 +42,5 @@ then
 			echo "Create a desktop entry is only meant to be used on Linux" ;;
 	esac
 else
-	echo -e "Cancel. /nJust execute ./Create-Desktop-Entry when you are ready to create a desktop entry for Popcorn Time"
+	echo -e "Cancel. /nJust execute ./Create-Desktop-Entry when you are ready to create a desktop entry for BackSlash TV"
 fi
