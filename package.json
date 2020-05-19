@@ -1,5 +1,5 @@
 {
-  "name": "backslash-tv",
+  "name": "BackSlash-TV",
   "productName": "BackSlash TV",
   "companyName": "BackSlash Linux",
   "installIcon": "./src/app/images/popcorntime.ico",
@@ -12,7 +12,7 @@
   },
   "license": "GPL-3.0",
   "main": "src/app/index.html",
-  "version": "0.4.4",
+  "version": "0.1.0",
   "releaseName": "Love in the Time of Corona",
   "scripts": {
     "start": "gulp run",
