@@ -48,12 +48,11 @@
     <%}%>
 </ul>
 <ul class="nav nav-hor right">
-    <% if (Settings.vpnEnabled) { %>
-    <!-- VPN -->
+    <!--<% if (Settings.vpnEnabled) { %>
     <li>
         <i id="filterbar-vpn" class="fa fa-unlock vpn-disconnected tooltipped" data-toggle="tooltip" data-placement="bottom" title="<%= i18n.__("Connection Not Secured") %>"></i>
     </li>
-    <%}%>
+    <%}%>-->
 
     <li>
         <div class="right search">
@@ -62,10 +61,6 @@
                 <div class="clear fa fa-times"></div>
             </form>
         </div>
-    </li>
-    <!-- Favorites -->
-    <li>
-        <i id="filterbar-favorites" class="fa fa-heart favorites tooltipped" data-toggle="tooltip" data-placement="bottom" title="<%= i18n.__("Favorites") %>"></i>
     </li>
     <!-- Watchlist -->
     <% if (Settings.activateWatchlist) { %>

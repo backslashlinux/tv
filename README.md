@@ -1,41 +1,18 @@
-# [Popcorn Time](https://github.com/popcorn-official/popcorn-desktop)
+# BackSlash TV
 
-[![Build Status](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/badge/icon)](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/)
-[![Dependency Status](https://david-dm.org/popcorn-official/popcorn-desktop.svg)](https://david-dm.org/popcorn-official/popcorn-desktop)
-[![devDependency Status](https://david-dm.org/popcorn-official/popcorn-desktop/dev-status.svg)](https://david-dm.org/popcorn-official/popcorn-desktop#info=devDependencies)
-[![Twitter](https://img.shields.io/badge/twitter-@Popcorn%20Time-3299EC.svg?style=flat)](https://twitter.com/popcorntimetv)
-[![Reddit](https://img.shields.io/badge/discussion-reddit-red.svg?style=flat)](https://reddit.com/r/popcorntime)
-[![Forum](https://img.shields.io/badge/Forum-Discourse-blue.svg?style=flat)](https://discuss.popcorntime.app)
-[![Facebook](https://img.shields.io/badge/facebook-Popcorn%20Time-354F88.svg?style=flat)](https://www.facebook.com/PopcornTimedotsh)
-
-
-
-Allow any user to easily watch movies through torrent streaming, without any prerequisites.
-
-Visit the project's website at <https://popcorntime.app>.
-
+Allow any user to easily watch movies through torrent streaming, without any prerequisites. Built on Popcorn Time.
 ***
 
 ## Install
 
-#### macOS:
-
-Easily install Popcorn Time via _[Homebrew](https://brew.sh) ([Cask](https://github.com/Homebrew/homebrew-cask#homebrew-cask))_ with `brew cask install https://raw.githubusercontent.com/popcorn-official/popcorn-desktop/development/casks/popcorn-time.rb`, or `brew cask install https://raw.githubusercontent.com/popcorn-official/popcorn-desktop/development/casks/popcorn-time-beta.rb` for the latest [stable] beta build. Also, if you keep a [_Brewfile_](https://github.com/Homebrew/homebrew-bundle#usage), you can add something like this:
-~~~ rb
-repo = 'popcorn-official/popcorn-desktop'
-tap repo, "https://github.com/#{repo}.git"
-cask 'popcorn-time'
-~~~
-
 ## Getting Involved
 
-Want to report a bug, request a feature, contribute to or translate Popcorn Time? Check out our in-depth guide to [Contributing to Popcorn Time](CONTRIBUTING.md#contributing-to-popcorn-time). We need all the help we can get! You can also join our [community](README.md#community) to keep up-to-date and meet other developers.
+Want to report a bug, request a feature, contribute to or translate BackSlash TV? Check out our in-depth guide to [Contributing to BackSlash TV](https://CONTRIBUTING.md). We need all the help we can get! You can also join our [community](README.md#community) to keep up-to-date and meet other developers.
 
 ## Getting Started
 
 If you're comfortable getting up and running from a `git clone`, this method is for you.
 
-The [master](https://github.com/popcorn-official/popcorn-desktop) branch which contains the latest release.
 
 #### Quickstart:
 
@@ -48,22 +25,16 @@ If you encounter trouble with the above method, you can try:
 3. `yarn build`
 5. `yarn start`
 
-Optionally, you may simply run `./make_popcorn.sh` if you are on a linux or mac based operating system.
 
-Full instructions & troubleshooting tips can be found in the [Contributing Guide](CONTRIBUTING.md#contributing-to-popcorn-time).
+Full instructions & troubleshooting tips can be found in the [Contributing Guide](CONTRIBUTING.md).
 
 <a name="community"></a>
 ## Community
 
-Keep track of Popcorn Time development and community activity.
+Keep track of BackSlash Linux development and community activity.
 
-* Follow Popcorn Time on [Twitter](https://twitter.com/popcorntimetv) and [Facebook](https://www.facebook.com/PopcornTimeDotSh).
-* Read and subscribe to [The Official Popcorn Time Blog](http://blog.popcorntime.app/).
-* Join in discussions on the [Popcorn Time Forum](https://discuss.popcorntime.app/).
-
-## Screenshots
-![Popcorn Time](https://cloud.githubusercontent.com/assets/8317250/10714437/b1e1dc8c-7b32-11e5-9c25-d9fbd5b2f3bd.png)
-![Debugging Popcorn Time](https://cloud.githubusercontent.com/assets/8317250/10714430/add70234-7b32-11e5-9be7-1de539d865ba.png)
+* Follow BackSlash Linux on [Facebook](http://facebook.com/backslashlinux/).
+* Join in discussions on the [BackSlash Linux Forum](https://forums.backslashlinux.com).
 
 
 ## Versioning
@@ -83,18 +54,6 @@ Constructed with the following guidelines:
 
 
 
-## Archive Links for older installations
-v3.10.0
-* [Popcorn-Time-0.3.10-win32-Setup.exe](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/Popcorn-Time-0.3.10-win32-Setup.exe)  58.90 MB
-* [Popcorn-Time-0.3.10-win64-Setup.exe](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/Popcorn-Time-0.3.10-win64-Setup.exe)  67.67 MB
-* [Popcorn-Time-0.3.10_linux32.tar.xz](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/Popcorn-Time-0.3.10_linux32.tar.xz)  63.10 MB
-* [Popcorn-Time-0.3.10_linux64.tar.xz](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/Popcorn-Time-0.3.10_linux64.tar.xz)  60.48 MB
-* [Popcorn-Time-0.3.10_osx64.tar.xz](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/Popcorn-Time-0.3.10_osx64.tar.xz)  50.43 MB
-* [popcorn-time_0.3.10-28112f678_amd64.deb](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/popcorn-time_0.3.10-28112f678_amd64.deb)  61.60 MB
-* [popcorn-time_0.3.10-28112f678_i386.deb](https://ci.popcorntime.app/job/Popcorn-Time-Desktop/200/artifact/build/popcorn-time_0.3.10-28112f678_i386.deb)  65.17 MB
-
-
-
 ***
 
 If you distribute a copy or make a fork of the project, you have to credit this project as the source.
@@ -107,4 +66,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 ***
 
-Copyright © 2019 Popcorn Time Project - Released under the [GPL v3 license](LICENSE.txt).
+Copyright © 2020 BackSlash Linux - Released under the [GPL v3 license](LICENSE.txt).
