@@ -5,6 +5,8 @@ Allow any user to easily watch movies through torrent streaming, without any pre
 
 ## Install
 
+Would ship as an app on BackSlash Linux Swen. No releases available for other platforms.
+
 ## Getting Involved
 
 Want to report a bug, request a feature, contribute to or translate BackSlash TV? Check out our in-depth guide to [Contributing to BackSlash TV](https://CONTRIBUTING.md). We need all the help we can get! You can also join our [community](README.md#community) to keep up-to-date and meet other developers.
