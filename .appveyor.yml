@@ -19,7 +19,7 @@ after_build:
 
 artifacts:
   - path: build\*.zip
-    name: PopcornTime
+    name: BackSlashTV
 
 deploy:
   description: 'Windows Release'

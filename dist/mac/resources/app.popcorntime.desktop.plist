@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>app.popcorntime.desktop</string>
+	<string>com.backslashlinux.desktop</string>
 	<key>Program</key>
-	<string>/Applications/Popcorn-Time.app/Contents/MacOS/nwjs</string>
+	<string>/Applications/BackSlash-TV.app/Contents/MacOS/nwjs</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Applications/Popcorn-Time.app/Contents/MacOS/nwjs</string>
+		<string>/Applications/BackSlash-TV.app/Contents/MacOS/nwjs</string>
 	</array>
 </dict>
 </plist>
