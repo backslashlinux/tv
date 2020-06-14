@@ -434,12 +434,12 @@ var Database = {
                 App.TVShowTime.restoreToken();
 
                 // check update
-                var updater = new App.Updater();
+                // var updater = new App.Updater();
 
-                updater.update()
-                    .catch(function (err) {
-                        win.error('updater.update()', err);
-                    });
+                // updater.update()
+                //     .catch(function (err) {
+                //         win.error('updater.update()', err);
+                //     });
 
             })
             .catch(function (err) {
