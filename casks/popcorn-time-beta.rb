@@ -5,7 +5,7 @@ cask 'popcorn-time-beta' do
   ci = 'https://ci.popcorntime.app/job/Popcorn-Time-Desktop'
   url "#{ci}/lastStableBuild/artifact/build/Popcorn-Time-#{version.before_comma}_osx64.zip"
   appcast ci, configuration: "Last stable build (##{version.after_comma})"
-  name 'Popcorn Time'
+  name 'BackSlash TV'
   homepage 'https://popcorntime.app/'
 
   auto_updates true

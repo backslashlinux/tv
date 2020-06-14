@@ -41,7 +41,7 @@ Keep track of BackSlash Linux development and community activity.
 
 ## Versioning
 
-For transparency and insight into our release cycle, and for striving to maintain backward compatibility, Popcorn Time will be maintained according to the [Semantic Versioning](http://semver.org/) guidelines as much as possible.
+For transparency and insight into our release cycle, and for striving to maintain backward compatibility, BackSlash TV will be maintained according to the [Semantic Versioning](http://semver.org/) guidelines as much as possible.
 
 Releases will be numbered with the following format:
 

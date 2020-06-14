@@ -4,7 +4,7 @@ cask 'popcorn-time' do
 
   url "https://get.popcorntime.app/build/Popcorn-Time-#{version}.pkg"
   appcast 'https://github.com/popcorn-official/popcorn-desktop/releases.atom'
-  name 'Popcorn Time'
+  name 'BackSlash TV'
   homepage 'https://popcorntime.app/'
 
   auto_updates true

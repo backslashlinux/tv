@@ -29,7 +29,7 @@
       id: 'local',
       type: 'local',
       typeFamily: 'internal',
-      name: 'Popcorn Time'
+      name: 'BackSlash TV'
     },
     play: function(streamModel) {
       App.vent.trigger('stream:local', streamModel);

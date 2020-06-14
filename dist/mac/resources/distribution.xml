@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <installer-gui-script minSpecVersion="1">
-    <title>Popcorn Time</title>
-    <organization>app.popcorntime</organization>
+    <title>BackSlash TV</title>
+    <organization>com.backslashlinux</organization>
     <domains enable_localSystem="true"/>
     <options customize="never" require-scripts="true" rootVolumeOnly="true"/>
     <background file="diagram.tiff" alignment="bottomleft" scaling="none"/>
     <welcome file="welcome.html" mime-type="text/html"/>
     <license file="license.txt"/>
-    <pkg-ref id="app.popcorntime.pkg.PopcornTime" version="0.0.0"
+    <pkg-ref id="com.backslashlinux.pkg.BackSlashTV" version="0.0.0"
         auth="root">Build.pkg</pkg-ref>
     <choices-outline>
-        <line choice="app.popcorntime.pkg.PopcornTime"/>
+        <line choice="com.backslashlinux.pkg.BackSlashTV"/>
     </choices-outline>
     <choice
-        id="app.popcorntime.pkg.PopcornTime"
+        id="com.backslashlinux.pkg.BackSlashTV"
         visible="true"
-        title="Popcorn Time"
-        description="Popcorn Time"
+        title="BackSlash TV"
+        description="BackSlash TV"
         start_selected="true">
-      <pkg-ref id="app.popcorntime.pkg.PopcornTime"/>
+      <pkg-ref id="com.backslashlinux.pkg.BackSlashTV"/>
     </choice>
 </installer-gui-script>
